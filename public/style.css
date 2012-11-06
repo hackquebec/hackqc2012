@@ -1,0 +1,502 @@
+html { font-size: 0.875em; -o-text-size-adjust: 0.875em; -webkit-text-size-adjust: 0.875em; -moz-text-size-adjust: 0.875em; -ms-text-size-adjust: 0.875em; }
+
+sup, sub { height: 0; line-height: 1; vertical-align: baseline; _vertical-align: bottom; position: relative; }
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+
+::-moz-selection { background: #990777; color: #FFF; text-shadow: none; }
+::selection { background: #990777; color: #FFF; text-shadow: none; }
+
+html, body{ height:100% ; width: 100%;}
+
+body{
+	background: url("img/bg.png") repeat;
+	font-family: "Gudea", "Helvetica Neue", Trebuchet, sans-serif;
+	margin:0;
+	line-height:18px;
+}
+
+#container{
+	position:relative;
+	overflow:hidden;
+	min-height: 100%;
+}
+
+.background{
+	background: url("img/bg_white.png") #FFF top right repeat-y;
+	width: 64%;
+	height:100%;
+	position:absolute;
+}
+
+#heading{
+	margin-bottom:5em;
+	padding-top: 10em;
+	vertical-align: middle;
+}
+
+#heading h1{
+	line-height:0.6em;
+	padding-top:0.65em;
+	vertical-align: top;
+}
+
+#heading h1 span{
+	color:#88A402;
+	display:block;
+	font-size: 0.425em;
+}
+
+#logo{
+	padding: 0 0 0 6%;
+	margin-top: 1em;
+	height:107px;
+	position:relative;
+	width:88px;
+}
+
+.section{
+	display:table;
+	margin-bottom:1.2em;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+.section p{
+	padding:0;
+}
+
+.section h2{
+	font-size:1.571em;
+}
+
+.section h1{
+	font-size: 3.571em;
+}
+
+.section h1, .section h2{
+	display: table-cell;
+	border-spacing: 0;
+	padding: 0.92em 2% 0 0;
+	margin:0;
+	text-align:right;
+	width: 64%;
+
+	text-shadow: #FFF 0 1px 0;
+}
+
+.section h2 a{
+	border-bottom: solid #c65800 1px;
+	border-bottom-color: rgba(198,88,0,0);
+	color: #c65800;
+	display:inline-block;
+	text-decoration:none;
+	opacity:0.9;
+}
+
+.section h2 a:hover{
+	border-bottom-color: rgba(198,88,0,1);
+	opacity: 1;
+}
+
+.lancement h2{
+	color:#20738E;
+}
+
+.lancement h2:before, .hack-day h2:before{
+	content:"";
+	background-color:#FFF;
+	border:#2084a6 solid 4px;
+	border-radius: 6px;
+	position:absolute;
+	left:64%;
+	margin:5px 0 0 -6px;
+	height:4px;
+	width:4px;
+}
+
+.hack-day h2{
+	color: #990777;
+}
+
+.hack-day h2:before{
+	border-color: #990777;
+}
+
+.section h2 span{
+	color:#093341;
+	display: block;
+	font-size:0.762em;
+	font-weight: normal;
+}
+
+.section .details{
+	color:#f7f4f4;
+	display:table-cell;
+	border-spacing: 0;
+	padding: 1em 10% 0 2%;
+	width:36%;
+
+	text-shadow:0 1px 1px #000;
+}
+
+.contact{
+	margin-bottom: 1em;
+	margin-top:1.571em;
+	text-align: center;
+}
+
+a.subscribe-link, a.twitter-link, a.contact-link{
+	border-bottom: solid #b8d41b 2px;
+	border-bottom-color: rgba(184,212,27,0.4);
+	color:#FFF;
+	display:inline-block;
+	font-size: 1.714em;
+	padding-bottom: 3px;
+	margin-top:1em;
+	text-decoration:none;
+	opacity:0.9;
+}
+
+a.twitter-link{
+	border-bottom: solid #186da1 2px;
+	border-bottom-color: rgba(24,109,161,0.4);
+}
+
+a.contact-link{
+	border-bottom-color: #BE2099;
+	border-bottom-color: rgba(190,32,153,0.4);
+	font-size:1.1em;
+	padding-bottom:0;
+	text-align:center;
+}
+
+a.twitter-link span{
+	color:#07a2ff;
+}
+
+a.subscribe-link:hover{
+	border-bottom-color: rgba(184,212,27,1);
+	opacity: 1;
+}
+
+a.contact-link:hover{
+	border-bottom-color: rgba(190,32,153,1);
+	opacity: 1;
+}
+
+a.twitter-link:hover{
+	border-bottom-color: rgba(24,109,161,1);
+	opacity: 1;
+}
+
+.sponsors{
+	margin-top: 3em;
+}
+
+.sponsors h3{
+	border-bottom:#333332 solid 1px;
+	color:#4b7583;
+	font-size:0.786em;
+	font-weight:normal;
+	text-transform: uppercase;
+}
+
+.sponsors h3 span{
+	color: #666667;
+	text-transform: none;
+}
+
+.sponsors .details{
+	padding-right: 2%;
+}
+
+.sponsors .sponsor-logos{
+	list-style-type:none;
+	margin: 0.3em 0 0;
+	padding:0 0 1em 0;
+}
+
+.sponsors .sponsor-logos li{
+	display:inline;
+	padding:1em 1.4em 0 0;
+}
+
+.sponsors .sponsor-logos a{
+	display:inline-block;
+	opacity:0.7;
+	margin-top:1em;
+}
+
+.sponsors .sponsor-logos a:hover{
+	opacity:1;
+}
+
+small{
+	color:#666667;
+	font-size:0.762em;
+}
+
+.hack-day small{
+	display:block;
+}
+
+/* - Sponsor logos - */
+
+.sponsors .crowdbase{
+	background-image:url("img/sponsors/crowdbase.png");
+	height:49px;
+	width:97px;
+}
+
+.sponsors .yellow-api{
+	background-image:url("img/sponsors/yellowAPI.png");
+	height:36px;
+	width:157px;
+}
+
+.sponsors .mirego{
+	background-image:url("img/sponsors/mirego.png");
+	height:31px;
+	width:104px;
+}
+
+.sponsors .tumbz{
+	background-image:url("img/sponsors/tumbz.png");
+	height:39px;
+	width:148px;
+}
+
+.sponsors .vetiq{
+	background-image:url("img/sponsors/vetiq.png");
+	height:42px;
+	width:135px;
+}
+
+/* - Every day I'm responsin' - */
+
+@media only screen and (max-width: 900px){
+	.background, .section h1, .section h2{
+		width:50%;
+	}
+	.lancement h2:before, .hack-day h2:before{
+		left:50%;
+	}
+	.section .details{
+		width:auto;
+	}
+}
+
+@media only screen and (max-width: 760px){
+	#heading{
+		margin-bottom:2em;
+		padding-top: 4em;
+		vertical-align: middle;
+	}
+
+	.background, .section h1, .section h2{
+		font-size:1.271em;
+		width:40%;
+	}
+
+	#heading h1{
+		padding-top:1.8em;
+		font-size:2.286em;
+	}
+
+	.lancement h2:before, .hack-day h2:before{
+		left:40%;
+	}
+}
+
+@media only screen and (max-width: 510px){
+	.background{ width:0.78em; }
+
+	.section{
+		display:block;
+		padding-left:2.4em;
+		width:auto;
+	}
+
+	.section .details{
+		padding-left:0;
+		display:block;
+	}
+
+	.section h1, .section h2{
+		display:block;
+		line-height:1.2em;
+		text-align:left;
+		text-shadow: none;
+		width: auto;
+	}
+
+	.section h2 span{
+		color:#566e76;
+	}
+
+	#heading{
+		padding:0;
+	}
+
+	#heading h1{
+		color: #FFF;
+		font-size:3.175em;
+		padding-top:1.1em;
+		padding-bottom: 0.6em;
+		text-align: center;
+		line-height:0.8em;
+	}
+
+	#heading h1 span{
+		color:#A8C40B;
+		opacity:0.7;
+
+	}
+
+	.lancement h2{
+		color:#10acdf;
+	}
+
+	.hack-day h2{
+		color:#be2099;
+	}
+
+	#logo{
+		margin:0 auto;
+		padding: 0;
+	}
+
+	.lancement h2:before, .hack-day h2:before{
+		border-radius: 6px;
+		position:absolute;
+		left:1em;
+		margin:2.4em 0 0 -10px;
+		height:4px;
+		width:4px;
+	}
+
+}
+
+/* - Animated logo image - */
+
+.logo-part, #logo-dots{
+	position:absolute;
+	top:0;
+	width:94px;
+	height:107px;
+}
+
+#logo-dots{
+	background:url("img/logo/logo_ellipses.png") no-repeat;
+}
+
+#logo .hidden, #logo img.hidden{
+	opacity:0.3;
+}
+
+#logo-part-1{ background-image:url("img/logo/logo_br1.png"); }
+#logo-part-2{ background-image:url("img/logo/logo_br2.png"); }
+#logo-part-3{ background-image:url("img/logo/logo_br3.png"); }
+#logo-part-4{ background-image:url("img/logo/logo_br4.png"); }
+#logo-part-5{ background-image:url("img/logo/logo_br5.png"); }
+#logo-part-6{ background-image:url("img/logo/logo_br6.png"); }
+#logo-part-7{ background-image:url("img/logo/logo_br7.png"); }
+#logo-part-8{ background-image:url("img/logo/logo_br8.png"); }
+#logo-part-9{ background-image:url("img/logo/logo_br9.png"); }
+#logo-part-10{ background-image:url("img/logo/logo_br10.png"); }
+#logo-part-11{ background-image:url("img/logo/logo_br11.png"); }
+#logo-part-12{ background-image:url("img/logo/logo_br12.png"); }
+#logo-part-13{ background-image:url("img/logo/logo_br13.png"); }
+#logo-part-14{ background-image:url("img/logo/logo_br14.png"); }
+#logo-part-15{ background-image:url("img/logo/logo_br15.png"); }
+
+/* - If HiDPI - */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (-moz-min-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (min-device-pixel-ratio: 2) {
+
+	#logo .logo-part, #logo #logo-dots{
+		background-size: 94px;
+	}
+
+	body{
+		background: url("img/bg@2x.png") repeat;
+		background-size: 33px 36px;
+	}
+
+	.sponsors .crowdbase{
+		background-image:url("img/sponsors/crowdbase@2x.png");
+		background-size:97px 49px;
+	}
+
+	.sponsors .yellow-api{
+		background-image:url("img/sponsors/yellowAPI@2x.png");
+		background-size: 157px 36px;
+	}
+
+	.sponsors .mirego{
+		background-image:url("img/sponsors/mirego@2x.png");
+		background-size:104px 31px;
+	}
+
+	.sponsors .tumbz{
+		background-image:url("img/sponsors/tumbz@2x.png");
+		background-size: 148px 39px;
+	}
+
+	.sponsors .vetiq{
+		background-image:url("img/sponsors/vetiq@2x.png");
+		background-size: 135px 42px;
+	}
+
+	#logo-dots{
+		background:url("img/logo/logo_ellipses@2x.png") no-repeat;
+	}
+
+	#logo-part-1{ background-image:url("img/logo/logo_br1@2x.png"); }
+	#logo-part-2{ background-image:url("img/logo/logo_br2@2x.png"); }
+	#logo-part-3{ background-image:url("img/logo/logo_br3@2x.png"); }
+	#logo-part-4{ background-image:url("img/logo/logo_br4@2x.png"); }
+	#logo-part-5{ background-image:url("img/logo/logo_br5@2x.png"); }
+	#logo-part-6{ background-image:url("img/logo/logo_br6@2x.png"); }
+	#logo-part-7{ background-image:url("img/logo/logo_br7@2x.png"); }
+	#logo-part-8{ background-image:url("img/logo/logo_br8@2x.png"); }
+	#logo-part-9{ background-image:url("img/logo/logo_br9@2x.png"); }
+	#logo-part-10{ background-image:url("img/logo/logo_br10@2x.png"); }
+	#logo-part-11{ background-image:url("img/logo/logo_br11@2x.png"); }
+	#logo-part-12{ background-image:url("img/logo/logo_br12@2x.png"); }
+	#logo-part-13{ background-image:url("img/logo/logo_br13@2x.png"); }
+	#logo-part-14{ background-image:url("img/logo/logo_br14@2x.png"); }
+	#logo-part-15{ background-image:url("img/logo/logo_br15@2x.png"); }
+}
+
+/* - Transitions & suffix-dependent stuff - */
+
+a.subscribe-link, a.twitter-link, a.contact-link, .section h2 a{
+		-webkit-transition: border-bottom-color 0.3s;
+		-o-transition: border-bottom-color 0.3s;
+		-ms-transition: border-bottom-color 0.3s;
+		-moz-transition: border-bottom-color 0.3s;
+	transition: border-bottom-color 0.3s;
+}
+
+#logo .logo-part, #logo #logo-dots{
+		-webkit-transition: opacity 1.2s;
+		-o-transition: opacity 1.2s;
+		-ms-transition: opacity 1.2s;
+		-moz-transition: opacity 1.2s;
+	transition: opacity 1.2s;
+}
+
+ .sponsors .sponsor-logos a{
+ 		-webkit-transition: opacity 0.3s;
+		-o-transition: opacity 0.3s;
+		-ms-transition: opacity 0.3s;
+		-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+ }
+}
