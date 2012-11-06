@@ -258,8 +258,8 @@ small{
 
 .sponsors .mirego{
 	background-image:url("img/sponsors/mirego.png");
-	height:31px;
-	width:104px;
+	height:37px;
+	width:127px;
 }
 
 .sponsors .tumbz{
@@ -270,8 +270,8 @@ small{
 
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
-	height:42px;
-	width:135px;
+	height:37px;
+	width:117px;
 }
 
 /* - Every day I'm responsin' - */
@@ -440,7 +440,7 @@ small{
 
 	.sponsors .mirego{
 		background-image:url("img/sponsors/mirego@2x.png");
-		background-size:104px 31px;
+		background-size:127px 37px;
 	}
 
 	.sponsors .tumbz{
@@ -450,7 +450,7 @@ small{
 
 	.sponsors .vetiq{
 		background-image:url("img/sponsors/vetiq@2x.png");
-		background-size: 135px 42px;
+		background-size: 117px 37px;
 	}
 
 	#logo-dots{
