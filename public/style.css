@@ -220,7 +220,7 @@ a.twitter-link:hover{
 
 .sponsors .sponsor-logos li{
 	display:inline;
-	padding:1em 1.4em 0 0;
+	padding:1.2em 1.4em 0 0;
 }
 
 .sponsors .sponsor-logos a{
@@ -243,6 +243,12 @@ small{
 }
 
 /* - Sponsor logos - */
+
+.sponsors .arcbees{
+	background-image:url("img/sponsors/arcbees.png");
+	height:42px;
+	width:152px;
+}
 
 .sponsors .crowdbase{
 	background-image:url("img/sponsors/crowdbase.png");
@@ -426,6 +432,11 @@ small{
 	body{
 		background: url("img/bg@2x.png") repeat;
 		background-size: 33px 36px;
+	}
+
+	.sponsors .arcbees{
+		background-image:url("img/sponsors/arcbees@2x.png");
+		background-size:152px 42px;
 	}
 
 	.sponsors .crowdbase{
