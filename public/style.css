@@ -151,10 +151,11 @@ a.subscribe-link, a.twitter-link, a.contact-link{
 	border-bottom: solid #b8d41b 2px;
 	border-bottom-color: rgba(184,212,27,0.4);
 	color:#FFF;
+	clear:left;
 	display:inline-block;
 	font-size: 1.714em;
 	padding-bottom: 3px;
-	margin-top:1em;
+	margin-top:0.45em;
 	text-decoration:none;
 	opacity:0.9;
 }
@@ -162,6 +163,7 @@ a.subscribe-link, a.twitter-link, a.contact-link{
 a.twitter-link{
 	border-bottom: solid #186da1 2px;
 	border-bottom-color: rgba(24,109,161,0.4);
+	font-size: 1.25em;
 }
 
 a.contact-link{
@@ -192,7 +194,7 @@ a.twitter-link:hover{
 }
 
 .sponsors{
-	margin-top: 3em;
+	margin-top: 2em;
 }
 
 .sponsors h3{
