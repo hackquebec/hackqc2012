@@ -282,6 +282,12 @@ small{
 	width:117px;
 }
 
+.sponsors .villeqc{
+	background-image:url("img/sponsors/villedequebec.png");
+	height:51px;
+	width:78px;
+}
+
 /* - Every day I'm responsin' - */
 
 @media only screen and (max-width: 900px){
@@ -464,6 +470,11 @@ small{
 	.sponsors .vetiq{
 		background-image:url("img/sponsors/vetiq@2x.png");
 		background-size: 117px 37px;
+	}
+
+	.sponsors .villeqc{
+		background-image:url("img/sponsors/villedequebec@2x.png");
+		background-size: 78px 51px;
 	}
 
 	#logo-dots{
