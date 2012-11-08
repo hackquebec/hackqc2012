@@ -1,5 +1,5 @@
 use Rack::Static,
-  :urls => %w(/img /style.css /script.js /apple-touch-icon.png /favicon.ico /favicon.png)
+  :urls => %w(/img /style.css /script.js /apple-touch-icon.png /favicon.ico /favicon.png),
   :root => 'public'
 
 run lambda { |env|
