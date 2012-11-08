@@ -24,7 +24,7 @@ body{
 
 .background{
 	background: url("img/bg_white.png") #FFF top right repeat-y;
-	width: 64%;
+	width: 60%;
 	height:100%;
 	position:absolute;
 }
@@ -81,7 +81,7 @@ body{
 	padding: 0.92em 2% 0 0;
 	margin:0;
 	text-align:right;
-	width: 64%;
+	width: 60%;
 
 	text-shadow: #FFF 0 1px 0;
 }
@@ -110,7 +110,7 @@ body{
 	border:#2084a6 solid 4px;
 	border-radius: 6px;
 	position:absolute;
-	left:64%;
+	left:60%;
 	margin:5px 0 0 -6px;
 	height:4px;
 	width:4px;
@@ -136,7 +136,7 @@ body{
 	display:table-cell;
 	border-spacing: 0;
 	padding: 1em 10% 0 2%;
-	width:36%;
+	width:40%;
 
 	text-shadow:0 1px 1px #000;
 }
@@ -318,7 +318,7 @@ small{
 	}
 }
 
-@media only screen and (max-width: 510px){
+@media only screen and (max-width: 560px){
 	.background{ width:0.78em; }
 
 	.section{
