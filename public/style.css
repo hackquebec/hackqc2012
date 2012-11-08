@@ -229,6 +229,7 @@ a.twitter-link:hover{
 	display:inline-block;
 	opacity:0.7;
 	margin-top:1em;
+	height:50px;
 }
 
 .sponsors .sponsor-logos a:hover{
@@ -248,44 +249,37 @@ small{
 
 .sponsors .arcbees{
 	background-image:url("img/sponsors/arcbees.png");
-	height:42px;
 	width:151px;
 }
 
 .sponsors .crowdbase{
 	background-image:url("img/sponsors/crowdbase.png");
-	height:49px;
-	width:97px;
+	width:101px;
 }
 
 .sponsors .yellow-api{
 	background-image:url("img/sponsors/yellowAPI.png");
-	height:36px;
-	width:157px;
+	width:162px;
 }
 
 .sponsors .mirego{
 	background-image:url("img/sponsors/mirego.png");
-	height:37px;
-	width:127px;
+	width:136px;
 }
 
 .sponsors .tumbz{
 	background-image:url("img/sponsors/tumbz.png");
-	height:39px;
-	width:148px;
+	width:151px;
 }
 
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
-	height:37px;
-	width:117px;
+	width:123px;
 }
 
 .sponsors .villeqc{
 	background-image:url("img/sponsors/villedequebec.png");
-	height:51px;
-	width:78px;
+	width:83px;
 }
 
 /* - Every day I'm responsin' - */
@@ -444,37 +438,37 @@ small{
 
 	.sponsors .arcbees{
 		background-image:url("img/sponsors/arcbees@2x.png");
-		background-size:151px 42px;
+		background-size:151px 50px;
 	}
 
 	.sponsors .crowdbase{
 		background-image:url("img/sponsors/crowdbase@2x.png");
-		background-size:97px 49px;
+		background-size:101px 50px;
 	}
 
 	.sponsors .yellow-api{
 		background-image:url("img/sponsors/yellowAPI@2x.png");
-		background-size: 157px 36px;
+		background-size: 162px 50px;
 	}
 
 	.sponsors .mirego{
 		background-image:url("img/sponsors/mirego@2x.png");
-		background-size:127px 37px;
+		background-size:136px 50px;
 	}
 
 	.sponsors .tumbz{
 		background-image:url("img/sponsors/tumbz@2x.png");
-		background-size: 148px 39px;
+		background-size: 151px 50px;
 	}
 
 	.sponsors .vetiq{
 		background-image:url("img/sponsors/vetiq@2x.png");
-		background-size: 117px 37px;
+		background-size: 123px 50px;
 	}
 
 	.sponsors .villeqc{
 		background-image:url("img/sponsors/villedequebec@2x.png");
-		background-size: 78px 51px;
+		background-size: 83px 50px;
 	}
 
 	#logo-dots{
