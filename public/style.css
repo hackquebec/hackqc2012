@@ -29,9 +29,57 @@ body{
 	position:absolute;
 }
 
+#nav{
+	border-bottom: solid 1px #333; 
+	color: #f7f4f4;
+	font-size: 1.143em;
+	float:right;
+	line-height: 1.071em;
+	margin:0;
+	padding:0;
+	height:3.715em;
+	width: 40%;
+
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
+}
+
+#nav a{
+	color:inherit;
+	display:table-cell;
+	height:2em;
+	margin:0;
+	opacity:0.7;
+	padding:0.572em 2% 0.572em 4%;
+	text-decoration: none;
+	vertical-align: text-top;
+	width:27.33%;
+	vertical-align: middle;
+}
+
+#nav .evenement{ border-top: solid 4px #990777; }
+#nav .regles{ border-top: solid 4px #2192b9; }
+#nav .infos{ border-top: solid 4px #adc620; }
+
+#nav .regles span{ color: #2192b9; }
+#nav .infos span{ color: #adc620; }
+
+#nav a:hover, #nav a.active{
+	border-top-width: 8px;
+	opacity: 1;
+}
+
+#nav:hover a.active{ border-top-width:4px; opacity:0.7; }
+#nav:hover a.active:hover{ border-top-width:8px; opacity:1; }
+
 #heading{
 	margin-bottom:5em;
-	padding-top: 10em;
+	padding-top: 6em;
 	vertical-align: middle;
 }
 
@@ -68,6 +116,7 @@ body{
 }
 
 .section h2{
+	color: #990777;
 	font-size:1.571em;
 }
 
@@ -100,14 +149,15 @@ body{
 	opacity: 1;
 }
 
-.lancement h2{
-	color:#20738E;
+.regles .section h2{
+	color:#0a7ba2;
 }
 
-.lancement h2:before, .hack-day h2:before{
+h2:before{
+	color: #990777;
 	content:"";
 	background-color:#FFF;
-	border:#2084a6 solid 4px;
+	border:#990777 solid 4px;
 	border-radius: 6px;
 	position:absolute;
 	left:60%;
@@ -116,12 +166,8 @@ body{
 	width:4px;
 }
 
-.hack-day h2{
-	color: #990777;
-}
-
-.hack-day h2:before{
-	border-color: #990777;
+.regles h2:before{
+	border-color:#2192b9;
 }
 
 .section h2 span{
@@ -285,10 +331,10 @@ small{
 /* - Every day I'm responsin' - */
 
 @media only screen and (max-width: 900px){
-	.background, .section h1, .section h2{
+	.background, .section h1, .section h2, #nav{
 		width:50%;
 	}
-	.lancement h2:before, .hack-day h2:before{
+	.section h2:before{
 		left:50%;
 	}
 	.section .details{
@@ -308,6 +354,10 @@ small{
 		width:40%;
 	}
 
+	#nav {
+		width:60%;
+	}
+
 	#heading h1{
 		padding-top:1.8em;
 		font-size:2.286em;
@@ -319,7 +369,15 @@ small{
 }
 
 @media only screen and (max-width: 560px){
-	.background{ width:0.78em; }
+	.background{z-index:-1; width:0.78em; }
+
+	#nav{
+		background:#222;
+		position:relative;
+		float:none;
+		width:auto;
+
+	}
 
 	.section{
 		display:block;
@@ -338,6 +396,10 @@ small{
 		text-align:left;
 		text-shadow: none;
 		width: auto;
+	}
+
+	.section h2{
+		color:#c70a9b;
 	}
 
 	.section h2 span{
@@ -363,20 +425,12 @@ small{
 
 	}
 
-	.lancement h2{
-		color:#10acdf;
-	}
-
-	.hack-day h2{
-		color:#be2099;
-	}
-
 	#logo{
 		margin:0 auto;
 		padding: 0;
 	}
 
-	.lancement h2:before, .hack-day h2:before{
+	.section h2:before{
 		border-radius: 6px;
 		position:absolute;
 		left:1em;
@@ -500,6 +554,14 @@ a.subscribe-link, a.twitter-link, a.contact-link, .section h2 a{
 		-ms-transition: border-bottom-color 0.3s;
 		-moz-transition: border-bottom-color 0.3s;
 	transition: border-bottom-color 0.3s;
+}
+
+#nav a{
+	-webkit-transition: border-top-width 0.3s cubic-bezier(0.355, 1.850, 0.445, 0.940);
+		-o-transition: border-top-width 0.3s cubic-bezier(0.355, 1.850, 0.445, 0.940);
+		-ms-transition: border-top-width 0.3s cubic-bezier(0.355, 1.850, 0.445, 0.940);
+		-moz-transition: border-top-width 0.3s cubic-bezier(0.355, 1.850, 0.445, 0.940);
+	transition: border-top-width 0.3s cubic-bezier(0.355, 1.850, 0.445, 0.940);
 }
 
 #logo .logo-part, #logo #logo-dots{
