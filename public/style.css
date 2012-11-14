@@ -314,12 +314,6 @@ small{
 	padding-right: 2%;
 }
 
-/*
-Rouge #990777
-Bleu #2192b9
-Vert #adc620
-*/
-
 .contact-links{
 	text-align: center;
 }
@@ -331,7 +325,9 @@ Vert #adc620
 	font-weight:bold;
 	height:3em;
 	line-height:3em;
+	letter-spacing: 0.08em;
 	margin-top:3em;
+	opacity:0.9;
 	text-align:center;
 	text-decoration: none;
 	text-shadow:none;
@@ -342,9 +338,9 @@ Vert #adc620
 .contact-links a.twitter{ background-color: #095f7d; }
 .contact-links a.mail{ background-color: #525e0b; }
 
-.contact-links a.eventbrite:hover{ background-color: #990777; }
-.contact-links a.twitter:hover{ background-color: #2192b9; }
-.contact-links a.mail:hover{ background-color: #adc620; }
+.contact-links a.eventbrite:hover{ background-color: #990777; opacity:1; }
+.contact-links a.twitter:hover{ background-color: #2192b9; opacity:1; }
+.contact-links a.mail:hover{ background-color: #adc620; opacity:1; }
 
 .sponsors{
 	padding-left:0;
@@ -657,6 +653,14 @@ a.subscribe-link, a.twitter-link, a.contact-link, .section h2 a{
 		-ms-transition: border-bottom-color 0.3s;
 		-moz-transition: border-bottom-color 0.3s;
 	transition: border-bottom-color 0.3s;
+}
+
+.contact-links a{
+		-webkit-transition: background-color 0.3s;
+		-o-transition: background-color 0.3s;
+		-ms-transition: background-color 0.3s;
+		-moz-transition: background-color 0.3s;
+	transition: background-color 0.3s;
 }
 
 #nav a{
