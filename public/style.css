@@ -32,12 +32,13 @@ body{
 #nav{
 	border-bottom: solid 1px #333; 
 	color: #f7f4f4;
+	display:table;
 	font-size: 1.143em;
 	float:right;
 	line-height: 1.071em;
 	margin:0;
 	padding:0;
-	height:3.715em;
+	height:4em;
 	width: 40%;
 
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%); /* FF3.6+ */
@@ -55,10 +56,10 @@ body{
 	height:2em;
 	margin:0;
 	opacity:0.7;
-	padding:0.572em 2% 0.572em 4%;
+	padding:0.572em 2% 0.572em 3%;
 	text-decoration: none;
 	vertical-align: text-top;
-	width:27.33%;
+	width:26.33%;
 	vertical-align: middle;
 }
 
@@ -78,8 +79,8 @@ body{
 #nav:hover a.active:hover{ border-top-width:8px; opacity:1; }
 
 #heading{
-	margin-bottom:5em;
-	padding-top: 6em;
+	margin-bottom:3em;
+	padding-top: 2em;
 	vertical-align: middle;
 }
 
@@ -181,8 +182,8 @@ h2:before{
 	color:#f7f4f4;
 	display:table-cell;
 	border-spacing: 0;
-	padding: 1em 10% 0 2%;
-	width:40%;
+	padding: 1em 5% 0 2%;
+	width:45%;
 
 	text-shadow:0 1px 1px #000;
 }
@@ -239,49 +240,6 @@ a.twitter-link:hover{
 	opacity: 1;
 }
 
-.sponsors{
-	margin-top: 2em;
-}
-
-.sponsors h3{
-	border-bottom:#333332 solid 1px;
-	color:#4b7583;
-	font-size:0.786em;
-	font-weight:normal;
-	text-transform: uppercase;
-}
-
-.sponsors h3 span{
-	color: #666667;
-	text-transform: none;
-}
-
-.sponsors .details{
-	padding-right: 2%;
-}
-
-.sponsors .sponsor-logos{
-	list-style-type:none;
-	margin: 0.3em 0 0;
-	padding:0 0 1em 0;
-}
-
-.sponsors .sponsor-logos li{
-	display:inline;
-	padding:1.2em 1.4em 0 0;
-}
-
-.sponsors .sponsor-logos a{
-	display:inline-block;
-	opacity:0.7;
-	margin-top:1em;
-	height:50px;
-}
-
-.sponsors .sponsor-logos a:hover{
-	opacity:1;
-}
-
 small{
 	color:#666667;
 	font-size:0.762em;
@@ -291,41 +249,127 @@ small{
 	display:block;
 }
 
+.sponsors h3{
+	border-bottom:#333332 solid 1px;
+	color:#4b7583;
+	font-size:0.786em;
+	font-weight:normal;
+	text-align:left;
+	text-transform: uppercase;
+	margin-top:3em;
+}
+
+/* - Page Règles - */
+
+.reglements{
+	counter-reset:rules;
+}
+
+.reglements strong{
+	color:#59d4ff;
+}
+
+.reglements li{
+	border-bottom: solid 1px #1d4b5a;
+	list-style:none;
+	margin: 0 0 0.786em 0.4em;
+	padding:6px 0 18px 0;
+	position:relative;
+}
+
+.reglements li:before{
+	content:counter(rules);
+	counter-increment:rules;
+	
+	color:#6b1c59;
+	position:absolute;
+	font-size:4em;
+	font-weight:bold;
+	line-height: 1em;
+	left:-0.7em;
+	top:0;
+}
+
+.reglements li:last-child{
+	border-bottom:none;
+}
+
+/* - Page Infos - */
+
+.infos h2{
+	color: #3B3836;
+}
+
+.infos h2:before{
+	border-color:#adc620;
+}
+
+.infos .details{
+	padding-right: 2%;
+}
+
+.sponsors{
+	padding-left:0;
+	margin-bottom:0.7em;
+	margin-top:1em;
+}
+
+.sponsors .sponsor-logos{
+	text-align: center;
+	margin: 0.3em 0 0;
+	padding:0;
+}
+
+.sponsors .sponsor-logos .sponsor{
+	background-repeat: no-repeat;
+	background-position: center top;
+	display:inline-block;
+	opacity:0.7;
+	height:60px;
+	width:160px;
+	vertical-align: text-top;
+}
+
+.sponsor:hover span{
+	opacity:1;
+}
+
+.sponsors .sponsor-logos a:hover{
+	opacity:0.99;
+}
+
 /* - Sponsor logos - */
 
 .sponsors .arcbees{
 	background-image:url("img/sponsors/arcbees.png");
-	width:151px;
+}
+
+.sponsors .capitaleouverte{
+	background-image:url("img/sponsors/capitaleouverte.png");
 }
 
 .sponsors .crowdbase{
 	background-image:url("img/sponsors/crowdbase.png");
-	width:101px;
 }
 
 .sponsors .yellow-api{
 	background-image:url("img/sponsors/yellowAPI.png");
-	width:162px;
 }
 
 .sponsors .mirego{
 	background-image:url("img/sponsors/mirego.png");
-	width:136px;
 }
 
 .sponsors .tumbz{
 	background-image:url("img/sponsors/tumbz.png");
-	width:151px;
 }
 
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
-	width:123px;
 }
 
 .sponsors .villeqc{
 	background-image:url("img/sponsors/villedequebec.png");
-	width:83px;
 }
 
 /* - Every day I'm responsin' - */
@@ -338,14 +382,13 @@ small{
 		left:50%;
 	}
 	.section .details{
+		padding: 1em 4% 0 2%;
 		width:auto;
 	}
 }
 
 @media only screen and (max-width: 760px){
 	#heading{
-		margin-bottom:2em;
-		padding-top: 4em;
 		vertical-align: middle;
 	}
 
@@ -363,7 +406,7 @@ small{
 		font-size:2.286em;
 	}
 
-	.lancement h2:before, .hack-day h2:before{
+	.section h2:before{
 		left:40%;
 	}
 }
@@ -375,7 +418,7 @@ small{
 		background:#222;
 		position:relative;
 		float:none;
-		width:auto;
+		width:100%;
 
 	}
 
@@ -387,6 +430,7 @@ small{
 
 	.section .details{
 		padding-left:0;
+		padding-top:0;
 		display:block;
 	}
 
@@ -400,6 +444,8 @@ small{
 
 	.section h2{
 		color:#c70a9b;
+		margin-bottom:0;
+		position:relative;
 	}
 
 	.section h2 span{
@@ -408,13 +454,13 @@ small{
 
 	#heading{
 		padding:0;
+		margin-bottom:1em;
 	}
 
 	#heading h1{
 		color: #FFF;
 		font-size:3.175em;
-		padding-top:1.1em;
-		padding-bottom: 0.6em;
+		padding-top:1em;
 		text-align: center;
 		line-height:0.8em;
 	}
@@ -430,10 +476,15 @@ small{
 		padding: 0;
 	}
 
+	.infos h2{
+		color:#adc620;
+	}
+
 	.section h2:before{
 		border-radius: 6px;
 		position:absolute;
-		left:1em;
+		left:-0.9em;
+		top:-1.2em;
 		margin:2.4em 0 0 -10px;
 		height:4px;
 		width:4px;
@@ -493,6 +544,11 @@ small{
 	.sponsors .arcbees{
 		background-image:url("img/sponsors/arcbees@2x.png");
 		background-size:151px 50px;
+	}
+
+	.sponsors .capitaleouverte{
+		background-image:url("img/sponsors/capitaleouverte@2x.png");
+		background-size:99px 50px;
 	}
 
 	.sponsors .crowdbase{
