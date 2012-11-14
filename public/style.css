@@ -348,6 +348,10 @@ small{
 	background-image:url("img/sponsors/capitaleouverte.png");
 }
 
+.sponsors .contextio{
+	background-image:url("img/sponsors/contextio.png");
+}
+
 .sponsors .crowdbase{
 	background-image:url("img/sponsors/crowdbase.png");
 }
@@ -549,6 +553,11 @@ small{
 	.sponsors .capitaleouverte{
 		background-image:url("img/sponsors/capitaleouverte@2x.png");
 		background-size:99px 50px;
+	}
+
+	.sponsors .contextio{
+		background-image:url("img/sponsors/contextio@2x.png");
+		background-size:152px 50px;
 	}
 
 	.sponsors .crowdbase{
