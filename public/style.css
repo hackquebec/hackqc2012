@@ -386,6 +386,10 @@ small{
 	background-image:url("img/sponsors/arcbees.png");
 }
 
+.sponsors .bellfibe{
+	background-image:url("img/sponsors/bellfibe.png");
+}
+
 .sponsors .capitaleouverte{
 	background-image:url("img/sponsors/capitaleouverte.png");
 }
@@ -590,6 +594,11 @@ small{
 	.sponsors .arcbees{
 		background-image:url("img/sponsors/arcbees@2x.png");
 		background-size:151px 50px;
+	}
+
+	.sponsors .bellfibe{
+		background-image:url("img/sponsors/bellfibe@2x.png");
+		background-size:137px 50px;
 	}
 
 	.sponsors .capitaleouverte{
