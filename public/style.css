@@ -177,7 +177,7 @@ h2.push:before{
 
 h3{
 	border-bottom:#333332 solid 1px;
-	color:#4b7583;
+	color:#6bA5B3;
 	font-size:0.786em;
 	font-weight:normal;
 	text-align:left;
@@ -185,6 +185,14 @@ h3{
 	margin-top:3em;
 }
 
+h3 a{
+	color:#4b7583;
+	text-decoration: none;
+}
+
+h3 a:hover{
+	text-decoration: underline;
+}
 
 .section h2 span{
 	color:#093341;
@@ -368,7 +376,7 @@ small{
 	opacity:1;
 }
 
-.sponsors .sponsor-logos a:hover{
+.sponsors .sponsor-logos .sponsor:hover{
 	opacity:0.99;
 }
 
