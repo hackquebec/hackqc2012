@@ -167,9 +167,24 @@ h2:before{
 	width:4px;
 }
 
+h2.push:before{
+	display:none;
+}
+
 .regles h2:before{
 	border-color:#2192b9;
 }
+
+h3{
+	border-bottom:#333332 solid 1px;
+	color:#4b7583;
+	font-size:0.786em;
+	font-weight:normal;
+	text-align:left;
+	text-transform: uppercase;
+	margin-top:3em;
+}
+
 
 .section h2 span{
 	color:#093341;
@@ -249,15 +264,6 @@ small{
 	display:block;
 }
 
-.sponsors h3{
-	border-bottom:#333332 solid 1px;
-	color:#4b7583;
-	font-size:0.786em;
-	font-weight:normal;
-	text-align:left;
-	text-transform: uppercase;
-	margin-top:3em;
-}
 
 /* - Page Règles - */
 
@@ -307,6 +313,38 @@ small{
 .infos .details{
 	padding-right: 2%;
 }
+
+/*
+Rouge #990777
+Bleu #2192b9
+Vert #adc620
+*/
+
+.contact-links{
+	text-align: center;
+}
+
+.contact-links a{
+	background-color:#2192b9;
+	color:#FFF;
+	display:inline-block;
+	font-weight:bold;
+	height:3em;
+	line-height:3em;
+	margin-top:3em;
+	text-align:center;
+	text-decoration: none;
+	text-shadow:none;
+	width:30%;
+}
+
+.contact-links a.eventbrite{ background-color: #6d0354; }
+.contact-links a.twitter{ background-color: #095f7d; }
+.contact-links a.mail{ background-color: #525e0b; }
+
+.contact-links a.eventbrite:hover{ background-color: #990777; }
+.contact-links a.twitter:hover{ background-color: #2192b9; }
+.contact-links a.mail:hover{ background-color: #adc620; }
 
 .sponsors{
 	padding-left:0;
