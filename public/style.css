@@ -414,6 +414,10 @@ small{
 	background-image:url("img/sponsors/tumbz.png");
 }
 
+.sponsors .rdio{
+	background-image:url("img/sponsors/rdio.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -629,6 +633,11 @@ small{
 	.sponsors .tumbz{
 		background-image:url("img/sponsors/tumbz@2x.png");
 		background-size: 151px 50px;
+	}
+
+	.sponsors .rdio{
+		background-image:url("img/sponsors/rdio@2x.png");
+		background-size: 106px 50px;
 	}
 
 	.sponsors .vetiq{
