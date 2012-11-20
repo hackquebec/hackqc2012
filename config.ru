@@ -4,18 +4,24 @@ use Rack::Static,
 
 map '/' do
   run Proc.new {|env|
-    [200, {'Content-Type' => 'text/html', 'Cache-Control' => 'public, max-age=86400'}, File.open('public/index.html', File::RDONLY)]
+    [200, {'Content-Type' => 'text/html', 'Cache-Control' => 'no-cache,  must-revalidate'}, File.open('public/index.html', File::RDONLY)]
   }
 end
 
 map '/infos' do
   run Proc.new {|env|
-    [200, {'Content-Type' => 'text/html', 'Cache-Control' => 'public, max-age=86400'}, File.open('public/infos.html', File::RDONLY)]
+    [200, {'Content-Type' => 'text/html', 'Cache-Control' => 'no-cache,  must-revalidate'}, File.open('public/infos.html', File::RDONLY)]
   }
 end
 
 map '/regles' do
   run Proc.new {|env|
-    [200, {'Content-Type' => 'text/html', 'Cache-Control' => 'public, max-age=86400'}, File.open('public/regles.html', File::RDONLY)]
+    [200, {'Content-Type' => 'text/html', 'Cache-Control' => 'no-cache,  must-revalidate'}, File.open('public/regles.html', File::RDONLY)]
+  }
+end
+
+map '/prix' do
+  run Proc.new {|env|
+    [301, {'Location' => '/regles', 'Content-type' => 'text/html'}, StringIO.new]
   }
 end
