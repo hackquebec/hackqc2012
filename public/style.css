@@ -99,6 +99,12 @@ body{
 	font-size: 0.425em;
 }
 
+#heading h1 a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+}
+
 #logo{
 	padding: 0 0 0 6%;
 	margin-top: 1em;
