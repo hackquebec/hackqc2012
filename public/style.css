@@ -473,8 +473,13 @@ small{
 .prizes {
 }
 
+.prize {
+	padding: 10px 0 8px;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
 .prize .prize-logo {
-	width: 48%;
+	width: 42%;
 	float: left;
 }
 
@@ -483,7 +488,7 @@ small{
 }
 
 .prize .prize-details {
-	width: 48%;
+	width: 56%;
 	float: right;
 	color: rgba(255,255,255,0.5);
 	font-size: 120%;
@@ -492,6 +497,18 @@ small{
 .prize .prize-details strong {
 	color: rgba(255,255,255,0.85);
 	font-weight: normal;
+}
+
+.prize .prize-details p:first-child {
+	margin: 0 0 2px;
+	padding-top: 10px;
+}
+
+.prize .prize-details p:nth-child(2) {
+	color: rgba(255,255,255,0.5);
+	font-size: 70%;
+	line-height: 1.3;
+	margin: 0;
 }
 
 /* - Every day I'm responsin' - */
