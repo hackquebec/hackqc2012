@@ -7,6 +7,9 @@ sub { top: .5ex; }
 ::-moz-selection { background: #990777; color: #FFF; text-shadow: none; }
 ::selection { background: #990777; color: #FFF; text-shadow: none; }
 
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .group {display: inline-block;}
+/* Hides from IE-mac \*/ * html .group {height: 1%;} .group {display: block;} /* End hide from IE-mac */
+
 html, body{ height:100% ; width: 100%;}
 
 body{
@@ -152,6 +155,8 @@ body{
 
 .regles .section h2{
 	color:#0a7ba2;
+	padding-top: 31px;
+	vertical-align: top;
 }
 
 h2:before{
@@ -362,6 +367,7 @@ small{
 	padding:0;
 }
 
+.single-sponsor,
 .sponsors .sponsor-logos .sponsor{
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -418,12 +424,64 @@ small{
 	background-image:url("img/sponsors/rdio.png");
 }
 
+.sponsors .wajam{
+	background-image:url("img/sponsors/wajam.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
 
 .sponsors .villeqc{
 	background-image:url("img/sponsors/villedequebec.png");
+}
+
+.teaser {
+	font-size: 160%;
+	font-weight: bold;
+	padding: 0;
+	margin: -30px 0 0;
+	text-align: center;
+}
+
+.teaser a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	background: rgba(43, 123, 163, 1);
+	padding: 10px 12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.teaser a:hover {
+	background: rgba(43, 123, 163, 0.8);
+	color: rgba(255,255,255,0.90);
+}
+
+.prizes {
+}
+
+.prize .prize-logo {
+	width: 48%;
+	float: left;
+}
+
+.prize .prize-logo .sponsor {
+	opacity: 1;
+}
+
+.prize .prize-details {
+	width: 48%;
+	float: right;
+	color: rgba(255,255,255,0.5);
+	font-size: 120%;
+}
+
+.prize .prize-details strong {
+	color: rgba(255,255,255,0.85);
+	font-weight: normal;
 }
 
 /* - Every day I'm responsin' - */
@@ -638,6 +696,11 @@ small{
 	.sponsors .rdio{
 		background-image:url("img/sponsors/rdio@2x.png");
 		background-size: 106px 50px;
+	}
+
+	.sponsors .wajam{
+		background-image:url("img/sponsors/wajam@2x.png");
+		background-size: 141px 50px;
 	}
 
 	.sponsors .vetiq{
