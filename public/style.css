@@ -434,6 +434,10 @@ small{
 	background-image:url("img/sponsors/wajam.png");
 }
 
+.sponsors .abrico{
+	background-image:url("img/sponsors/abrico.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -707,6 +711,11 @@ small{
 	.sponsors .wajam{
 		background-image:url("img/sponsors/wajam@2x.png");
 		background-size: 141px 50px;
+	}
+
+	.sponsors .abrico{
+		background-image:url("img/sponsors/abrico@2x.png");
+		background-size: 135px 50px;
 	}
 
 	.sponsors .vetiq{
