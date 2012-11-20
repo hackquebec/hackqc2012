@@ -590,7 +590,10 @@ small{
 	#heading h1 span{
 		color:#A8C40B;
 		opacity:0.7;
+	}
 
+	#heading h1 a{
+		color:#fff;
 	}
 
 	#logo{
