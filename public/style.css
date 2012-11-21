@@ -438,6 +438,10 @@ small{
 	background-image:url("img/sponsors/abrico.png");
 }
 
+.sponsors .zapquebec{
+	background-image:url("img/sponsors/zapqc.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -736,6 +740,11 @@ small{
 	.sponsors .abrico{
 		background-image:url("img/sponsors/abrico@2x.png");
 		background-size: 135px 50px;
+	}
+
+	.sponsors .zapquebec{
+		background-image:url("img/sponsors/zapqc@2x.png");
+		background-size: 40px 50px;
 	}
 
 	.sponsors .vetiq{
