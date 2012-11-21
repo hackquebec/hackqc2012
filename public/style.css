@@ -442,6 +442,10 @@ small{
 	background-image:url("img/sponsors/zapqc.png");
 }
 
+.sponsors .sogix{
+	background-image:url("img/sponsors/sogix.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -745,6 +749,11 @@ small{
 	.sponsors .zapquebec{
 		background-image:url("img/sponsors/zapqc@2x.png");
 		background-size: 40px 50px;
+	}
+
+	.sponsors .sogix{
+		background-image:url("img/sponsors/sogix@2x.png");
+		background-size: 141px 50px;
 	}
 
 	.sponsors .vetiq{
