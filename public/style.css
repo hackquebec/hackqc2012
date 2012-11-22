@@ -489,6 +489,7 @@ small{
 .prize .prize-logo {
 	width: 42%;
 	float: left;
+	overflow: hidden;
 }
 
 .prize .prize-logo .sponsor {
@@ -638,6 +639,14 @@ small{
 		margin:2.4em 0 0 -10px;
 		height:4px;
 		width:4px;
+	}
+
+	.prize .prize-logo {
+		width: 50%;
+	}
+
+	.prize .prize-details {
+		width: 48%;
 	}
 
 }
