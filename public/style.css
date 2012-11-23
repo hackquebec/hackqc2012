@@ -450,6 +450,10 @@ small{
 	background-image:url("img/sponsors/waq.png");
 }
 
+.sponsors .heliom{
+	background-image:url("img/sponsors/heliom.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -772,6 +776,11 @@ small{
 	.sponsors .waq{
 		background-image:url("img/sponsors/waq@2x.png");
 		background-size: 88px 50px;
+	}
+
+	.sponsors .heliom{
+		background-image:url("img/sponsors/heliom@2x.png");
+		background-size: 147px 50px;
 	}
 
 	.sponsors .vetiq{
