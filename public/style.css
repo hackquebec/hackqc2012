@@ -474,6 +474,18 @@ small{
 	text-align: center;
 }
 
+.teaser p:first-child {
+	line-height: 1.5;
+	font-weight: normal;
+	margin: 0 0 40px;
+	color: rgba(255,255,255,0.6);
+}
+
+.teaser p:first-child strong {
+	font-weight: bold;
+	color: rgba(255,255,255,0.9);
+}
+
 .teaser a {
 	color: #fff;
 	text-decoration: none;
