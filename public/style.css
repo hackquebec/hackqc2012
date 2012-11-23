@@ -319,6 +319,12 @@ small{
 	border-bottom:none;
 }
 
+p.reglements-note {
+	color: rgba(255,255,255,0.5);
+	font-size: 90%;
+	padding: 0 0 0 45px;
+}
+
 /* - Page Infos - */
 
 .infos h2{
