@@ -472,6 +472,22 @@ p.reglements-note {
 	background-image:url("img/sponsors/villedequebec.png");
 }
 
+.sponsors .egouvquebec{
+	background-image:url("img/sponsors/egouvquebec.png");
+}
+
+.sponsors .gouv-qc{
+	background-image:url("img/sponsors/gouv-qc.png");
+}
+
+.sponsors .gouv-ca{
+	background-image:url("img/sponsors/gouv-ca.png");
+}
+
+.sponsors .blackberry{
+	background-image:url("img/sponsors/blackberry.png");
+}
+
 .teaser {
 	font-size: 160%;
 	font-weight: bold;
@@ -818,6 +834,26 @@ p.reglements-note {
 	.sponsors .villeqc{
 		background-image:url("img/sponsors/villedequebec@2x.png");
 		background-size: 83px 50px;
+	}
+
+	.sponsors .egouvquebec{
+		background-image:url("img/sponsors/egouvquebec@2x.png");
+		background-size: 75px 50px;
+	}
+
+	.sponsors .gouv-qc{
+		background-image:url("img/sponsors/gouv-qc@2x.png");
+		background-size: 97px 50px;
+	}
+
+	.sponsors .gouv-cq{
+		background-image:url("img/sponsors/gouv-ca@2x.png");
+		background-size: 98px 50px;
+	}
+
+	.sponsors .blackberry{
+		background-image:url("img/sponsors/blackberry@2x.png");
+		background-size: 141px 50px;
 	}
 
 	#logo-dots{
