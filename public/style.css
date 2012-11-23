@@ -454,6 +454,10 @@ small{
 	background-image:url("img/sponsors/heliom.png");
 }
 
+.sponsors .duproprio{
+	background-image:url("img/sponsors/duproprio.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -781,6 +785,11 @@ small{
 	.sponsors .heliom{
 		background-image:url("img/sponsors/heliom@2x.png");
 		background-size: 147px 50px;
+	}
+
+	.sponsors .heliom{
+		background-image:url("img/sponsors/duproprio@2x.png");
+		background-size: 113px 50px;
 	}
 
 	.sponsors .vetiq{
