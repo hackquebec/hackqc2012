@@ -464,6 +464,10 @@ p.reglements-note {
 	background-image:url("img/sponsors/duproprio.png");
 }
 
+.sponsors .demarque{
+	background-image:url("img/sponsors/demarque.png");
+}
+
 .sponsors .vetiq{
 	background-image:url("img/sponsors/vetiq.png");
 }
@@ -824,6 +828,11 @@ p.reglements-note {
 	.sponsors .duproprio{
 		background-image:url("img/sponsors/duproprio@2x.png");
 		background-size: 113px 50px;
+	}
+
+	.sponsors .demarque{
+		background-image:url("img/sponsors/demarque@2x.png");
+		background-size: 137px 50px;
 	}
 
 	.sponsors .vetiq{
