@@ -583,6 +583,23 @@ p.reglements-note {
 	margin: 0;
 }
 
+.prize .prize-details ol {
+	color: rgba(255,255,255,0.5);
+	font-size: 70%;
+	line-height: 1.3;
+	margin: 0 0 0 18px;
+	padding: 10px 0 0;
+	list-style: circle;
+}
+
+.prize .prize-details ol li {
+	margin: 0 0 4px;
+}
+
+.prize .prize-details ol a {
+	color: rgba(255,255,255,0.6);
+}
+
 /* - Every day I'm responsin' - */
 
 @media only screen and (max-width: 900px){
